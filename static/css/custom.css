@@ -1,0 +1,158 @@
+.vertical-title {
+    position: absolute;       
+    right: 0;               
+    top: 50%;                
+    transform: translateY(-50%); 
+    writing-mode: vertical-lr;   
+    text-orientation: mixed;    
+    font-size: 8rem;           
+    font-weight: bold;
+    color: rgb(36, 7, 7);
+    padding-left: 1rem;   
+    text-decoration-line: overline;     
+}
+.bg-maroon{
+    background-color: rgb(36, 7, 7);
+}
+.nav-hover :hover{
+    background-color: rgba(245, 245, 220, 0.4);
+}
+.title-cus h1{
+    font-size: 8rem;
+    color: rgb(36, 7, 7);
+}
+.title-cus p{
+font-size: 1.2rem;
+}
+.title-cus h2{
+    font-size: 8rem;
+    color: rgb(36, 7, 7);
+}
+.vertical-title2{
+  position: absolute;
+  left:0;   
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  writing-mode: vertical-rl;
+  font-size: 8rem;
+  font-weight: bold;
+  letter-spacing: 6px;
+  color: rgb(36, 7, 7);
+  text-decoration-line: overline;
+}
+.vertical-title3{
+  position: absolute;       
+    right: 0;                  
+    top: 50%;                 
+    transform: translateY(-50%); 
+    writing-mode: vertical-rl;  
+    text-orientation: mixed;     
+    font-size: 5rem;          
+    font-weight: bold;
+    color: white;
+    margin-right: 700px; 
+}
+
+  .my-card {
+    
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+  
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .my-card:hover {
+    
+    transform: scale(1.1);
+   
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+   
+    z-index: 1;
+  }
+.hero-section {
+    background-image: url("https://cdn.prod.website-files.com/631492df65cd5321245d33e8/64e82e88ad1f15554ee61602_cms%20blog%201.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+}
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    z-index: 1;
+}
+
+.hero-section > * {
+    position: relative;
+    z-index: 2;
+}
+.navbar {
+    background: transparent !important;
+}
+.hero-section h1{
+  font-size: 9rem;
+  padding-top: 4rem;
+}
+.hero-section h3{
+  font-size: 4rem;
+}
+.hero-section p{
+  font-size: 1.2rem;
+}
+.cus-bg{
+  background-color: rgba(156, 156, 156, 0.2);
+}
+.hero-section2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+}
+.hero-section2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 1;
+}
+
+.hero-section2 > * {
+    position: relative;
+    z-index: 2;
+}
+.hero-section2 h1{
+  font-size: 5rem;
+  padding-top: 1rem;
+}
+.hero-section2 h3{
+  font-size: 3rem;
+}
+.hero-section2 p{
+  font-size: 1.4rem;
+}
+.nav-hover2 :hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.my-link {
+  color: black; /* Default color */
+  transition: color 0.3s ease; /* Smooth transition for the color change */
+}
+
+.my-link:hover {
+  color: orange; /* Color on hover */
+}
+.blog-text h1{
+font-size: 5rem;
+color: blue;
+}
